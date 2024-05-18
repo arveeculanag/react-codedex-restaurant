@@ -46,7 +46,7 @@ function App() {
         <Menu menu={menu} hello={"Hello"}></Menu>
         <OrderForm />
       </main>
-      <Footer />
+      <Footer></Footer>
     </>
   );
 }

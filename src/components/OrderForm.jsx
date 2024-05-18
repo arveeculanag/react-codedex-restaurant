@@ -1,3 +1,5 @@
+import "../assets/styles/Main.css";
+
 export default function OrderForm() {
   return (
     <section id="order-form">

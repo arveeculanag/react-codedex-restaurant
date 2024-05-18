@@ -1,6 +1,8 @@
+import "../assets/styles/Main.css";
+
 export default function Menu(props) {
   return (
-    <section>
+    <section className="menu">
       <h2>Menu</h2>
       {props.menu.map(function (item) {
         return (
