@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 16px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li,
+a,
+p {
+  color: #111;
+}
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  border-radius: 4px;
+  padding: 4px;
+  background-color: #f3f3f3;
+  color: #111;
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+@media screen and (max-width: 560px) {
+  figcaption {
+    display: none;
+  }
+}
+
+figcaption a {
+  display: unset;
+}
+
+img {
+  position: relative;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  max-height: 200px;
+  border-radius: 8px;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
+
+input,
+textarea {
+  padding: 8px;
+  font-size: unset;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  display: inline;
+}
+
+textarea {
+  margin-top: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
