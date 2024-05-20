@@ -55,6 +55,12 @@ article {
   padding: 16px;
 }
 
+@media screen and (max-width: 500px) {
+  section.menu > article {
+    margin-bottom: 16px;
+  }
+}
+
 article > h3 {
   margin-top: 16px;
 }
